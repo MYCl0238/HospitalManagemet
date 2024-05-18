@@ -4,6 +4,7 @@
 * cmakelist.txt is created so ide will most likely configure project on its own
 * you will need to configure project with the cmakelist.txt if not so
 
+*
 * Running on workflow is being triggered by push pull requests
 * ================================================================================
   

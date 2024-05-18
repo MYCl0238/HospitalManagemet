@@ -5,7 +5,7 @@
 * you will need to configure project with the cmakelist.txt if not so
 
 *
-* Running on workflow is being triggered by push pull requests
+* Running on workflow is being triggered by push pull requests (only tests the build)
 * ======================================================================
   
 System Logic:

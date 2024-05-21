@@ -209,7 +209,7 @@ public:
     }
 
     static void savePatientData(Patient &patient) {
-        ofstream file("../patient_data/" + to_string(patient.getId()) + ".dat", ios::binary);
+        ofstream file("patient_data/" + to_string(patient.getId()) + ".dat", ios::binary);
         if (file.is_open()) {
             patient.serialize(file);
             file.close();
